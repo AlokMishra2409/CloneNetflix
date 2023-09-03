@@ -46,7 +46,8 @@ body {
 .lang {
     color: white;
     background-color: white;
-    border: none;
+    border:  0.01rem solid white;
+    /* border-width: thin; */
     /* outline: 0.1px solid white; */
     border-radius: 5px;
     height: 32px;
@@ -81,7 +82,7 @@ body {
 }
 
 .sel select {
-    border: none;
+    border:none;
     outline: none;
 
 }
@@ -283,6 +284,9 @@ footer{
     margin: 0px 160px;
     padding: 60px 0px;
     width: 1000px;
+    /* display: flex; */
+    /* align-items: start; */
+    /* justify-content: start; */
    
  
 }
