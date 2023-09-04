@@ -28,7 +28,8 @@ body {
 
 
 .logo {
-    margin-top: 3px;
+    margin-top: 8px;
+    margin-left: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,8 +37,8 @@ body {
 }
 
 .logo img {
-    height: 100px;
-    width: 178px;
+    height: 120px;
+    width: 200px;
    
    
 }
@@ -46,7 +47,8 @@ body {
 .lang {
     color: white;
     background-color: white;
-    border:  0.01rem solid white;
+    border: none;
+    border: 0.0001em solid lightslategray;
     /* border-width: thin; */
     /* outline: 0.1px solid white; */
     border-radius: 5px;
@@ -79,6 +81,7 @@ body {
     height: 25px;
     width: 80px;
     color: white;
+   
 }
 
 .sel select {
@@ -172,7 +175,7 @@ header::before{
     color: rgba(212, 192, 192, 0.388);
     /* font-family: 'Baloo Bhai 2', cursive; */
     font-size: 1.1rem;
-    border: none;
+    border: 0.0001em solid lightslategray;
      /* outline: 0.1px solid white; */
     padding-left: 15px;
     border-radius: 5px;
@@ -310,9 +313,10 @@ footer{
     color: white;
     height: 200px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
+    padding-right: 100px;
    
    
  }
