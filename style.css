@@ -234,28 +234,138 @@ hr{
 /* faq */
 
 .faq{
-    height: 930px;
+    height: 900px;
 }
 
 .faq-first{
-    height: 785px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 80px;
+   
 }
 
 
 .box{
     width: 1010px;
-    height: 550px;
+    height: 700px;
     color: white;
-}
 
-.box-1{
-    height: 84px;
-    
+
+
+    /* padding: 10px 12%;
+    text-align: center;
+    font-size: 18px; */
 }
+.box-1{
+    width: 1010px;
+    height: 84px;
+    background-color:  rgb(45, 45, 45);
+    display: flex;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+.box-2{
+    width: 1010px;
+    height: 84px;
+    background-color:  rgb(45, 45, 45);
+    display: flex;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+.box-3{
+    width: 1010px;
+    height: 84px;
+    background-color:  rgb(45, 45, 45);
+    display: flex;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+.box-4{
+    width: 1010px;
+    height: 84px;
+    background-color:  rgb(45, 45, 45);
+    display: flex;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+.box-5{
+    width: 1010px;
+    height: 84px;
+    background-color:  rgb(45, 45, 45);
+    display: flex;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+.box-6{
+    width: 1010px;
+    height: 84px;
+    background-color:  rgb(45, 45, 45);
+    display: flex;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding-left: 25px;
+   
+}
+/* 
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+}
+.accordion input[type="radio"]:checked+label+ .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked+label::after{
+    transform: rotate(135deg);
+} */
 
 .extra{
     color: white;
@@ -264,6 +374,7 @@ hr{
 .extra h1{
     font-size: 3.1rem;
     font-family: 'Archivo Black', sans-serif;
+    margin-bottom: 25px;
 }
 .extra p{
     font-size: 1.5rem;
