@@ -139,7 +139,8 @@ header::before{
    
 }
 .comms{
-    width: 1220px;
+    min-width: 1220px;
+    width: auto;
 }
 .comms h1{
     text-align: center;
