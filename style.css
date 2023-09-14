@@ -113,6 +113,10 @@ body {
     cursor: pointer;
 
 }
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
 
 /* first */
 
